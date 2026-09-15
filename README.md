@@ -1,6 +1,5 @@
 # Visao-computacional-Opencv
 Projeto do segundo módulo do SCTEC. Pré-processamento de imagens com OpenCV.
-
 # Mini-Projeto — Visão Computacional
 
 ## Objetivo
@@ -128,7 +127,7 @@ data/raw_images/
 Depois, execute o arquivo principal pelo terminal, a partir da pasta raiz do projeto:
 
 ```bash
-python src/main.py
+python main.py
 ```
 
 O programa irá:
@@ -147,19 +146,6 @@ data/processed_images/
 ## Git
 
 O projeto foi desenvolvido utilizando Git e organizado em branch de desenvolvimento.
-
-Exemplos de commits:
-
-```text
-comeco: configura ambiente inicial
-feat: implementa leitura em lote
-feat: adiciona grayscale e gaussian blur
-feat: adiciona threshold otsu
-feat: adiciona operacoes morfologicas
-feat: adiciona deteccao de bordas
-feat: adiciona resize e salvamento
-docs: adiciona README
-```
 
 ## Possíveis melhorias
 
